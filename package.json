@@ -2,9 +2,9 @@
   "name": "yarn-plugin-lifecycle-hooks",
   "version": "1.0.0",
   "description": "Yarn Berry plugin that restores npm-style pre/post lifecycle script hooks",
-  "main": "plugin-lifecycle.cjs",
+  "main": "index.cjs",
   "files": [
-    "plugin-lifecycle.cjs"
+    "index.cjs"
   ],
   "keywords": [
     "yarn",
@@ -21,10 +21,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roid/yarn-plugin-lifecycle-hooks.git"
+    "url": "git+https://github.com/RoiDayan1/yarn-plugin-lifecycle-hooks.git"
   },
   "bugs": {
-    "url": "https://github.com/roid/yarn-plugin-lifecycle-hooks/issues"
+    "url": "https://github.com/RoiDayan1/yarn-plugin-lifecycle-hooks/issues"
   },
-  "homepage": "https://github.com/roid/yarn-plugin-lifecycle-hooks#readme"
+  "homepage": "https://github.com/RoiDayan1/yarn-plugin-lifecycle-hooks#readme"
 }

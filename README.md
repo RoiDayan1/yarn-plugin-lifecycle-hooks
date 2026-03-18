@@ -9,7 +9,7 @@ Yarn Berry (v2+) intentionally dropped automatic execution of pre/post scripts. 
 ### From GitHub (recommended)
 
 ```sh
-yarn plugin import https://raw.githubusercontent.com/roid/yarn-plugin-lifecycle-hooks/main/plugin-lifecycle.cjs
+yarn plugin import https://raw.githubusercontent.com/RoiDayan1/yarn-plugin-lifecycle-hooks/main/index.cjs
 ```
 
 This downloads the plugin into `.yarn/plugins/` and updates `.yarnrc.yml` automatically.
@@ -17,7 +17,7 @@ This downloads the plugin into `.yarn/plugins/` and updates `.yarnrc.yml` automa
 ### From a local file
 
 ```sh
-yarn plugin import ./plugin-lifecycle.cjs
+yarn plugin import ./index.cjs
 ```
 
 ## Usage
