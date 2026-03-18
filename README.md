@@ -43,6 +43,10 @@ yarn build
 
 yarn test
 # Runs: pretest → test → posttest
+
+yarn build --watch
+# Runs: prebuild → build --watch → postbuild
+# Arguments are forwarded only to the main script
 ```
 
 ## How it works

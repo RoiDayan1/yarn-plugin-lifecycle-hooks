@@ -44,9 +44,7 @@ module.exports = {
         wrapScriptExecution(executor, project, locator, scriptName, extra) {
           return async () => {
             // Derive the pre/post names.  Works for colon-separated names too,
-            // e.g. scriptName = "blackbox:update-snapshots" gives
-            //   preScriptName  = "preblackbox:update-snapshots"
-            //   postScriptName = "postblackbox:update-snapshots"
+            // e.g. "my:task" → "premy:task" / "postmy:task"
             const preScriptName = `pre${scriptName}`;
             const postScriptName = `post${scriptName}`;
 
